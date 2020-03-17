@@ -2,6 +2,7 @@
 
 Before you dig into the code, we recommend that you reformat dates in your spreadsheet  to make it easier to program. 
 ### Go to Format > Number > Date Time.
+https://user-images.githubusercontent.com/31392756/76847810-ec4fbb80-6842-11ea-8164-fcfc610a2b85.png
 
 
 ###Step 1: Identify the calendar
