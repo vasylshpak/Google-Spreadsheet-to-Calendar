@@ -1,10 +1,10 @@
-## Google-Spreadsheet-to-Calendar
+# Google-Spreadsheet-to-Calendar
 
 Before you dig into the code, we recommend that you reformat dates in your spreadsheet  to make it easier to program. 
-# Go to Format > Number > Date Time.
+### Go to Format > Number > Date Time.
 
 
-Step 1: Identify the calendar
+###Step 1: Identify the calendar
 
 First, we need to decide which Calendar we want to add information into. In this example, we want to add information from a spreadsheet into a team calendar. We use SpreadsheetApp to retrieve information from the spreadsheet that we’re working in. Then, the code will help us retrieve the value of the calendar ID from the cell that it lives in.
 
@@ -22,7 +22,7 @@ Next acces your calendar Id and paste it into sell
 var eventCal = CalendarApp.getCalendarById(calendarId);
 ```
 
-tep 2: Select data from the Google Sheet
+###Step 2: Select data from the Google Sheet
 
 We need to identify the specific cells that we want to grab data from within our spreadsheet.
 In this Sheet, the shifts are in column A-F, rows 2-11.
@@ -32,7 +32,7 @@ In this Sheet, the shifts are in column A-F, rows 2-11.
 ```
 
 
-Step 3: write the loop
+###Step 3: write the loop
 
 ```javascript
  for (x=0; x<signups.length; x++) {
@@ -52,7 +52,7 @@ ${shift[5]}`//F2
         }// THE FOURTH PARAMETR FOR createEvent is an object so we have to put everething in object to show the description
 ```
 
-Step 4: Create events
+###Step 4: Create events
 ```javascript
 eventCal.createEvent(title,startTime,endTime,event)
 ```
@@ -86,5 +86,6 @@ ${shift[5]}`
    
 }
 
-
 ```
+
+###Step 5: Run the function
