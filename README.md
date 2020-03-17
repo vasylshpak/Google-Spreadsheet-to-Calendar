@@ -100,3 +100,6 @@ ${shift[5]}`
 ```
 
 ###Step 5: Run the function
+
+![image](https://user-images.githubusercontent.com/31392756/76848770-8b28e780-6844-11ea-899a-5aa02c589d17.png)
+
