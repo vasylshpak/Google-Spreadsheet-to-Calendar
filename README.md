@@ -4,8 +4,6 @@ Before you dig into the code, we recommend that you reformat dates in your sprea
 ### Go to Format > Number > Date Time.
 ![image](https://user-images.githubusercontent.com/31392756/76848179-857ed200-6843-11ea-9a46-50cd1fa809c2.png)
 
-
-
 (All code is going to Tools > Script Editor)
 
 ### Step 1: Identify the calendar
